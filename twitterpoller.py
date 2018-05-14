@@ -19,7 +19,8 @@ tstream = tw.TwitterStream(auth=oauth)
 
 keywords = """data security,data privacy,cybersecurity,digital security,digital privacy,internet privacy,internet security,
 computer privacy,surveillance,internet rights,internet censorship,internet monitoring,internet safety,online privacy"""
-# Get a sample of the public data following through Twitter
+
+# Get tweets with specified keywords
 iterator = tstream.statuses.filter(track=keywords, language="en")
 time_start = time.time()
 delaycheck = time.time()
