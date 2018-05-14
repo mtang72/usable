@@ -1,14 +1,16 @@
 import json
 import twitter as tw
 import time
+#The 'twitter' package is the Minimalist Twitter API, courtesy of Mike Verdone.
 
 f = open('out.txt', 'w')
 
 # Variables that contains the user credentials to access Twitter API 
-ACCESS_TOKEN = '346936472-BuK6K6BvgXjxy3oHY9q0B5ibP01Ve5exjzRCQzuf'
-ACCESS_SECRET = 'y2tGQgFpISWPMfpEb60BosmKmGErCNlvHKqycZBJSbvU7'
-CONSUMER_KEY = 'n4BAY7E7l7t1559wblkn425UR'
-CONSUMER_SECRET = 'oi7Ra9tsu9nzcDcf6sxVVqnLa9x7HdUFGoYjaDdDKibsjx65KF'
+# For understandable reasons I am not revealing my access token and secret, or my API key and secret.
+ACCESS_TOKEN = 
+ACCESS_SECRET = 
+CONSUMER_KEY = 
+CONSUMER_SECRET = 
 
 oauth = tw.OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 
